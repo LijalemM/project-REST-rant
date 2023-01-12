@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2"
   },
   "repository": {
@@ -19,6 +20,5 @@
     "url": "https://github.com/LijalemM/project-REST-rant/issues"
   },
   "homepage": "https://github.com/LijalemM/project-REST-rant#readme",
-  "devDependencies": {},
   "description": ""
 }
