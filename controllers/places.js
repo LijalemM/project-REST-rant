@@ -6,20 +6,21 @@ router.get('/',(req,res)=>{
         city: 'Seattle',
         state: 'WA',
         cuisines: 'Thai, Pan-Asian',
-        pic: 'http://placekitten.com/250/250'
+        pic: '/images/cafeplace.jpg'
       },
       {
-        name: 'LESTAT',
+        name: 'Jebena Buna',
         city: 'San Deigo',
         state: 'CA',
-        cuisines: 'Freanch, Europian'
+        cuisines: 'Ethiopia, Ethiopian',
+        pic: '/images/ethiopiancafe.jpg'
       },
       {
         name: 'Coding Cat Cafe',
         city: 'Phoenix',
         state: 'AZ',
         cuisines: 'Coffee, Bakery',
-        pic: 'http://placekitten.com/250/250'
+        pic: '/images/coffeebar.jpg'
       }]
 
     res.render('places/index', {places})

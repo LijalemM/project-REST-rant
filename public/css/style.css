@@ -4,9 +4,15 @@ h1 {
   }
   p {
     text-align: center;
-    color:lightblue;
+    color:blue;
     
   }
   body {
     background-color: bisque;
+  }
+  img {
+    width:500px;
+  }
+  div{
+    text-align: center;
   }
